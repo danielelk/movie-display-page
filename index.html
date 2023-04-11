@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie display page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+</head>
+
+<body>
+  <section class="movies">
+    <div class="title">
+      <h2>Movies</h2>
+      <div class="uline"></div>
+    </div>
+    <div class="button-container">
+      <button class="button-filter" type="button" data-category="all">all</button>
+      <button class="button-filter" type="button" data-category="action">action</button>
+      <button class="button-filter" type="button" data-category="horror">horror</button>
+      <button class="button-filter" type="button" data-category="comedy">comedy</button>
+      <button class="button-filter" type="button" data-category="romance">romance</button>
+    </div>
+    <div class="mid-section">
+      <article class="movie">
+        <img src="./firstmovie.jpg" class="image" alt="movie poster">
+        <div class="movie-details">
+          <header>
+            <h4>John Wick</h4>
+            <h4 class="rating">86%</h4>
+          </header>
+          <p class="description">
+            Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his
+            life. Her sudden death leaves John in deep mourning. When sadistic mobster Iosef Tarasov (Alfie Allen) and
+            his thugs steal John's prized car and kill the puppy that was a last gift from his wife, John unleashes the
+            remorseless killing machine within and seeks vengeance.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
